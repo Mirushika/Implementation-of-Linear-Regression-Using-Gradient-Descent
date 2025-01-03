@@ -8,11 +8,12 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+1.Import necessary libraries. 
+2.Compute predictions using the formula: predictions = X.dot(theta). 
+3.Load the dataset using pd.read_csv() 
+4.Compute the prediction using the formula:
+         \text{prediction} = \text{dot product of } (\text{new_data and } \theta). 
+5.Print the predicted value (pre), representing the estimated profit based on input features.
 ## Program:
 ```
 /*
